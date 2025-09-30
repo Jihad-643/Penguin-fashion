@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin-fashion</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
     <style>
         .roboto-font {
             font-family: "Roboto", sans-serif;
-
         }
 
         .bebas-neue-font {
             font-family: "Bebas Neue", sans-serif;
+        }
+
+        .montserrat-font {
+            font-family: "Montserrat", sans-serif;
 
         }
     </style>
@@ -29,16 +30,20 @@
 </head>
 
 <body class="roboto-font">
+    <header class="bg-[#FFFBF0] max-w-[1364px] mx-auto">
+        <nav class=" montserrat-font flex justify-between py-5 px-9">
+            <img class="max-w-72" src="icons/logo.png" alt="">
 
-    <header class="bg-[#FFFBF0] pl-4">
-        <nav>
-            <!-- <h1>Penguin Fashion</h1> -->
-            <ul>
+            <ul class="flex gap-6 font-medium text-[16px]">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
 
             </ul>
         </nav>
 
-        <div class="md:flex items-center justify-around">
+        <div class="md:flex items-center justify-around ">
             <div>
                 <h1 class="text-7xl uppercase bebas-neue-font"><span class="text-[#FABE4C]">Be the Penguins</span>
                     <br>
@@ -125,12 +130,7 @@
                         </button>
                     </div>
                 </div>
-
-
             </div>
-
-
-
         </section>
         <!-- Men Section -->
         <section class="my-12 max-w-7xl mx-auto">
@@ -138,12 +138,12 @@
             <div class="grid lg:grid-cols-3 md:grid-cols-2">
                 <!-- jacket-1 -->
                 <div class="p-4 space-y-4 drop-shadow-lg rounded-3xl">
-                        <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="images/jacket-4.png" alt="">
-                        <h3 class="font-bold text-2xl text-[#363958]">Snowboard Jacket Mens</h3>
-                        <p>Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry.</p>
-                    
-                    <div class="flex justify-between">
+                    <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="images/jacket-4.png" alt="">
+                    <h3 class="font-bold text-2xl text-[#363958]">Snowboard Jacket Mens</h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+
+                    <div class="flex justify-between items-center">
                         <h3 class="text-[#FABE4C] font-black text-4xl">$253</h3>
                         <button
                             class="text-white bg-green-500 py-4 px-8 rounded-xl uppercase font-bold bg-linear-to-r from-[#A4BC46] to-[#85A019] mt-[8px] "><svg
@@ -156,14 +156,14 @@
 
                     </div>
                 </div>
-                 <!-- jacket-2 -->
+                <!-- jacket-2 -->
                 <div class="p-4 space-y-4 drop-shadow-lg rounded-3xl">
-                        <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="images/jacket-5.png" alt="">
-                        <h3 class="font-bold text-2xl text-[#363958]">Snowboard Jacket Mens</h3>
-                        <p>Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry.</p>
-                    
-                    <div class="flex justify-between">
+                    <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="images/jacket-5.png" alt="">
+                    <h3 class="font-bold text-2xl text-[#363958]">Snowboard Jacket Mens</h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+
+                    <div class="flex justify-between items-center">
                         <h3 class="text-[#FABE4C] font-black text-4xl">$253</h3>
                         <button
                             class="text-white bg-green-500 py-4 px-8 rounded-xl uppercase font-bold bg-linear-to-r from-[#A4BC46] to-[#85A019] mt-[8px] "><svg
@@ -176,11 +176,11 @@
                     </div>
                 </div> <!-- jacket-3 -->
                 <div class="p-4 space-y-4 drop-shadow-lg rounded-3xl">
-                        <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="images/jacket-6.png" alt="">
-                        <h3 class="font-bold text-2xl text-[#363958]">Snowboard Jacket Mens</h3>
-                        <p>Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry.</p>
-                    <div class="flex justify-between">
+                    <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="images/jacket-6.png" alt="">
+                    <h3 class="font-bold text-2xl text-[#363958]">Snowboard Jacket Mens</h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between items-center">
                         <h3 class="text-[#FABE4C] font-black text-4xl">$253</h3>
                         <button
                             class="text-white bg-green-500 py-4 px-8 rounded-xl uppercase font-bold bg-linear-to-r from-[#A4BC46] to-[#85A019] mt-[8px] "><svg
@@ -190,16 +190,50 @@
                                     d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                             </svg>
                             Buy now</button>
-
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="py-[130px]">
+    <div class="flex flex-col sm:flex-col lg:flex-row justify-around items-center">
 
+            <div class="space-y-6  ">
+                <div class="flex items-center drop-shadow-lg  max-w-[490px] ">
+                    <div>
+                         <img class="max-w-[78px] mr-9" src="icons/house.png" alt="">
+                    </div>
+                   <div>
+                     <h4 class="font-bold text-[24px]  ">Find the Perfect Fit</h4>
+                    <p class="pb-5 pr-[76px]">Everybody is different, which is why we
+                        offer styles for every body.</p>
+                   </div>
+                </div>
+                <div class="flex items-center max-w-[490px] ">
+                    <div>
+                        <img class="max-w-[78px] mr-9" src="icons/box.png" alt="">
+                    </div>
+                    <div >
+                      <h4 class="font-bold text-[24px] ">Free Exchanges </h4>
+                    <p class="pb-5 pr-[76px]">One of the many reasons you can shop
+                        with peace of mind.</p>
+                  </div>
+                </div>
+                <div class="flex items-center max-w-[490px] ">
+                    <div>
+                        <img class="max-w-[78px] mr-9" src="icons/question.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[24px] ">Contact Our Seller</h4>
+                    <p class="pb-5 pr-[76px]">They are here to help you. That's quite
+                        literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="sm:w-full lg:max-w-xl" src="images/shopping.png" alt="">
+            </div>
+        </div>
     </footer>
-
 </body>
-
 </html>
